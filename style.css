@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    background: url("https://i.ytimg.com/vi/wLYG0b713Es/maxresdefault.jpg") no-repeat center center fixed;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 4rem;
+    color:#f6c103c1;
+    text-shadow: 8px 2px 2px #000000;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    margin: 0;
+  }
+  h2 {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 5px #000;  
+    margin: 0;
+  }
+  p {
+    font-size: 1rem;  
+    text-shadow: 1px 1px 2px #000;
+  }
+  a {
+    color: #fff;
+  }
+  #countdown {
+    max-width: 500px;
+    max-height:fit-content;
+  }
+  #countdown ul {
+    margin: 5% 0 0 0;
+    padding: 0;
+    display: flex;
+    gap: 5%;
+  }
+  #countdown ul li {
+    flex: 25%;
+    padding: 5%;
+    margin: 0;
+    list-style: none;
+    background: #280101;
+    border-radius: 5px;
+  }
+  #countdown ul li span {
+    display:-webkit-inline-box;
+    font-size: 2rem;
+  }
